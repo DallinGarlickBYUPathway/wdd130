@@ -1,23 +1,31 @@
+:root {
+    --default-bg-color: #f0f0f0;
+    --default-txt-color: black;
+    --default-padding: 1rem;
+    --default-margin: 1rem;
+    --default-border: 1px solid black;
+}
+
 nav {
     background-color: #bdbdbd;
-    padding: 1rem;
+    padding: var(--default-padding);
 }
 
 nav a {
-    color: black;
-    padding: 1rem;
+    color: var(--main-text-color);
+    padding: var(--default-padding);
     display: block;
 }
 
 h1 {
-    color: black;
+    color: var(--main-text-color);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: black 1px solid;
-    padding: 1rem;
+    border: var(--default-border);
+    padding: var(--default-padding);
     box-shadow: 0px 0px 10px #333;
 }
 
@@ -36,11 +44,11 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 1rem;
-    background-color: white;
-    color: black;
+    margin: var(--default-margin);
+    border: var(--default-border);
+    padding: var(--default-padding);
+    background-color: var(--default-bg-color);
+    color: var(--main-text-color);
     text-align: center;
 }
 
@@ -51,6 +59,6 @@ aside img {
 
 footer {
     margin-top: 20px;
-    border-top: 1px solid black;
+    border-top: var(--default-border);
     text-align: center;
 }
