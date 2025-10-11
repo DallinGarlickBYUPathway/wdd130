@@ -67,6 +67,7 @@ h1, h2 {
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 nav, p, section, article {
@@ -119,6 +120,7 @@ nav, p, section, article {
     text-align: center;
     align-items: center;
     margin: 16px;
+    background-color: rgb(44, 33, 33);
 }
 
 .history img {
@@ -131,11 +133,32 @@ nav, p, section, article {
 
 .adventure {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 16px;
     padding: 8px;
     margin: 0 auto;
-    align-items: center;
-    margin-left: 50px;
+    align-items: top;
 }
 
+h2 {
+    background-color: var(--accent1-color);
+}
+
+figcaption {
+    font-size: 0.8rem;
+    color: var(--primary-color);
+    margin-top: 4px;
+    background-color: rgb(48, 38, 38);
+    border : 2px solid var(--primary-color);
+}
+
+footer {
+    background-color: white;
+    border-top: 4px solid var(--primary-color);
+    padding: 8px;
+    font-size: 0.8rem;
+    color: black;
+    text-align: center;
+    width: 840px;
+    margin-top: 24px;
+}
