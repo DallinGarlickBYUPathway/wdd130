@@ -1,6 +1,6 @@
 :root {
     --primary-color: #ffffff;
-    --secondary-color: #ebd191;
+    --secondary-color: rgb(68, 65, 58);
     --accent1-color: rgb(25, 25, 190);
     --accent2-color: gray;
     --body-font: 'Arial', sans-serif;
@@ -147,6 +147,7 @@ figcaption {
     font-size: 0.8rem;
     color: var(--primary-color);
     margin-top: 4px;
+    padding: 4px;
     background-color: rgb(48, 38, 38);
     border : 2px solid var(--primary-color);
 }
@@ -160,4 +161,56 @@ footer {
     text-align: center;
     width: 840px;
     margin-top: 24px;
+    padding-left: 100px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.map iframe {
+    border: 8px solid black;
+}
+
+.contact-form {
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: left;
+    gap: 8px;
+    background-color: var(--secondary-color);
+    padding: 8px;
+}
+
+.contact-form input[type="text"], [type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+.contact-form input[type="checkbox"] {
+    font-size: .5rem;
+}
+
+.contact-form button[type="submit"] {
+    font-size: 1.2rem;
+}
+
+.employees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.company-info {
+    font-size: 1.2rem;
+    background-color: var(--secondary-color);
+    padding-bottom: 40px;
 }

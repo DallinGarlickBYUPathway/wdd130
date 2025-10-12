@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us - Juraftic Adventures </title>
+    <meta name="author" content="Dallin Garlick">
+    <meta name="description" content="The contact page for Juraftic Adventures, where you can enter your contact information to send us a mesage if you have questions.">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/company-logo.png" alt="Juraftic Adventures Logo" width="200" height="200">
+        <nav>
+            <a href="index.html">Index</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h2>Juraftic Adventures</h2>
+            <div class ="company-info">
+                <br>123 Dinosaur Street
+                <br>Prehistoric, CO 80000
+                <br>(123) 456-7890 
+                <br>info@geteatenbydinosarus.com
+            </div>
+        </div>
+        <div class ="contact-section">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1549648.7395224157!2d-110.42796635183402!3d40.65947543146021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874563b57606fd85%3A0x67de69ad4dbb01d2!2sDinosaur%20River%20Expeditions!5e0!3m2!1sen!2sus!4v1760241290904!5m2!1sen!2sus" 
+                        width="350" height = "400" allowfullscreen="" loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class ="contact-form">
+                <form action="#" method="post" class="contact-form">
+                    <table>
+                        <tr>
+                            <td><label for="name">Name:</label></td>
+                            <td><input type="text" id="name" name="name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td>Message<br>Purpose:</td>
+                            <td>
+                                <label>
+                                    <input type="radio" name="purpose" value="general" required>
+                                    General Inquiry
+                                </label><br>
+                                <label>
+                                    <input type="radio" name="purpose" value="reservation">
+                                    Reservation Question
+                                </label><br>
+                                <label>
+                                    <input type="radio" name="purpose" value="suggestion">
+                                    Website Suggestion
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <label>
+                        <input type="checkbox" name="subscribe" value="yes">
+                        Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit" class="submit-btn">Get in Touch!</button>
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <h2>We Are Here to Serve You</h2>
+            <div class="employees">
+                <figure>
+                    <img src="images/employee-1.jpg" alt="Grug" height="300">
+                    <figcaption>Grug (CEO)</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-2.jpg" alt="Hair" height="300">
+                    <figcaption>Hair (Wildlife Expert)</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-3.jpg" alt="Sebastian Von Herrtonath III" height="300">
+                    <figcaption>Sebastian Von Herrtonath III (Intern)</figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>©2025 Juraftic Adventures Dallin Garlick</p>
+        <nav class="socialmedia"> </nav>
+            <a href="https://facebook.com"><img src="images/icon-facebook.png" alt="Company Facebook Link" width="32" height="32"></a>
+            <a href="https://x.com"><img src="images/icon-twitterx.png" alt="Company Twitter/X Link" width="32" height="32"></a>
+            <a href="https://linkedin.com"><img src="images/icon-linkedin.png" alt="Company LinkedIn Link" width="32" height="32"></a>
+    </footer>
+</body>
+</html>
