@@ -180,7 +180,6 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: left;
-    align-items: left;
     gap: 8px;
     background-color: var(--secondary-color);
     padding: 8px;
@@ -213,4 +212,8 @@ footer {
     font-size: 1.2rem;
     background-color: var(--secondary-color);
     padding-bottom: 40px;
+}
+
+.company-title {
+    background-color: var(--secondary-color);
 }
