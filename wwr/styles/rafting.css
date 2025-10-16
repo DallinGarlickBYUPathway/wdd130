@@ -265,3 +265,44 @@ footer {
     background-color: var(--secondary-color);
     border: 4px solid var(--primary-color);
 }
+
+.trip-offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    background-color: var(--secondary-color);
+    padding: 16px;
+    border: 4px solid var(--primary-color);
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 2rem;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.trip-pricing {
+    font-size: 1.5rem;
+    background-color: var(--secondary-color);
+    padding: 16px;
+    border: 4px solid var(--primary-color);
+    margin-top: 16px;
+}
+
+.trip-pricing h3 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.trip-pricing table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-pricing tr, th, td {
+    border: 2px solid var(--primary-color);
+    padding: 8px;
+    text-align: left;
+}
